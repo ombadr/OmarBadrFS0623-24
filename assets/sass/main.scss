@@ -1,0 +1,26 @@
+@import 'buttons';
+@import 'colors';
+@import 'fonts';
+@import 'header';
+@import 'footer';
+@import 'bootstrap/scss/bootstrap.scss';
+
+body {
+  font-family: $inter-font-family;
+}
+
+#hero-section {
+  background-color: $purple;
+  padding: 2em;
+}
+
+#hero-section h1 {
+  color: white;
+  font-weight: bold;
+  font-size: 1.8em;
+}
+
+#hero-section p {
+  color: white;
+  opacity: 0.7;
+}
